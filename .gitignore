@@ -1,0 +1,10 @@
+.idea
+.vscode
+.project
+.settings
+.classpath
+
+build/
+target/
+
+src/main/resources/p.py

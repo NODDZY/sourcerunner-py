@@ -1,0 +1,43 @@
+:root {
+    --primary-grey: #252525;
+    --lighter-grey: #363636;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+html {
+    scrollbar-width: thin;
+}
+textarea {
+    padding: 1rem;
+    font-size: large;
+    resize: none;
+    scrollbar-gutter: stable;
+}
+textarea:focus {
+    outline: none;
+}
+.container {
+    text-align: center;
+}
+.output {
+    margin-top: 10%;
+    border: 0;
+    visibility: hidden; /* Is set to visible when there is output */
+    background-color: white;
+}
+button {
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 1rem;
+}
+button:hover {
+    color: green;
+    cursor: pointer;
+}
+button:active {
+    color: lightgreen;
+}
